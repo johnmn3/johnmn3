@@ -25,7 +25,12 @@
             methods: {
             }
         });
-        const gh = new GitHub();
+        const url = new URL(window.location.href);
+        const token = url.searchParams.get('code');
+        const gh = new GitHub({
+            token: token,
+            auth: "oauth"
+        });
         gh.getRepo('johnmn3', 'johnmn3').listBranches().then(x => {
             console.log('x=', JSON.stringify(x, 0, 2));
         });

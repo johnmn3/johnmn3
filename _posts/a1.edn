@@ -1,4 +1,5 @@
 [:article
     [:h1 "Hello World"]
     [:p "I'm post A."]
+    [:p "Mismatched posts"]
     [:p "Trying from chrome."]]

@@ -1,4 +1,4 @@
 [:article
     [:h1 "Hello World"]
     [:p "I'm post A."]
-    [:p "testing push from push-button"]]
+    [:p "testing titles and dates"]]

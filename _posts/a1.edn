@@ -1,4 +1,4 @@
 [:article
     [:h1 "Hello World"]
     [:p "I'm post A."]
-    [:p "Trying from Firefox."]]
+    [:p "Trying from chrome."]]

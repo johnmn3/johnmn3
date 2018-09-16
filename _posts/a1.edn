@@ -1,4 +1,4 @@
 [:article
     [:h1 "Hello World"]
     [:p "I'm post A."]
-    [:p "New dates."]]
+    [:p "Fixed dates."]]

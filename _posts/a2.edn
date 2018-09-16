@@ -1,4 +1,4 @@
 [:article
-    [:h1 "Hello World(5)"]
+    [:h1 "Hello World(6)"]
     [:p "I'm post B."]
-    [:p "This is the new stuff in post B."]]
+    [:p "This is the new stuff in post B. Extra content in here"]]

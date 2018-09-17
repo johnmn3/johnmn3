@@ -1,40 +1,12 @@
 <html>
-
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.maria.cloud/maria.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.1/tufte.min.css"/>
+    <script src="/js/base.js"></script>
 </head>
-
 <body>
-    <div id="app">
-        <div>
-            <span>status:</span>
-            <span>{{message}}</span>
-        </div>
-        <!-- <button v-on:click="increment">+1</button>
-        <div>Status:
-            <span>{{ status }}</span>
-        </div> -->
-    </div>
-    <script>
-        var app = new Vue({
-            el: '#app',
-            data: {
-                message: 'no status yet'
-            },
-            methods: {
-            }
-        });
-        const url = new URL(window.location.href);
-        const token = url.searchParams.get('code');
-        const gh = new GitHub({
-            token: token,
-            auth: "oauth"
-        });
-        gh.getRepo('johnmn3', 'johnmn3').listBranches().then(x => {
-            console.log('x=', JSON.stringify(x, 0, 2));
-        });
-    </script>
+<div id="shadow-eval"></div>
+<script>shadow_eval.core.render();</script>
 </body>
-
 </html>

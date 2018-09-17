@@ -1,0 +1,40 @@
+/* my css */
+
+.circle {
+  border-radius: 50%;
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  color: black;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover, .circle:active{
+  border-radius:13px;
+  cursor: pointer;
+  height: 90%;
+  width: 200px;
+}
+
+.squared {
+  border-radius:13px;
+  cursor: pointer;
+  height: 90%;
+  width: 200px;
+}
+
+.text {
+  color: white;
+  opacity: 0;
+  text-align: center;
+  padding-top: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover .text {
+  padding-top: 40px;
+  opacity: 1;
+}
